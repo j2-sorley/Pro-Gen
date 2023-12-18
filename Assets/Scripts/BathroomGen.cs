@@ -28,7 +28,7 @@ public class BathroomGen : MonoBehaviour
        for (int i = 0; i < ItemAmount; i++)
         {
             int b = Random.Range(0, spawnPoints.Count); 
-            Instantiate(Items[Random.Range(0, Items.Length)], spawnPoints[b].position, Quaternion.identity);
+            Instantiate(Items[Random.Range(0, Items.Length)], spawnPoints[b].position, spawnPoints[b].rotation);
             spawnPoints.Remove(spawnPoints[b]);
        }
        // Wall Items
