@@ -1186,8 +1186,10 @@ MonoBehaviour:
   FloorSpawnPoints: []
   LightSpawnPoint: {fileID: 0}
   Items:
-  - {fileID: 919132149155446097, guid: b086e06b7ed9d3a44b393cb14a3a95be, type: 3}
   - {fileID: 308354218070147635, guid: 406a2a5a11cf57d49b8ed10436463521, type: 3}
+  - {fileID: 1182060133955550628, guid: dcb3247af8592094abab006737bdbe76, type: 3}
+  - {fileID: 352716653135046487, guid: aac0a5c0458db92459c22c73ea255a0a, type: 3}
+  - {fileID: 3032861157929416912, guid: d4ce0774e263a2a499a9ab08eb9fc63f, type: 3}
   WallItems: []
   FloorItems: []
   Lights: []
